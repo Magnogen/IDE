@@ -1,4 +1,3 @@
-
 [
   { "name": "cmd", "match": "^([AEIOUY][-aeiouy0-9]*)" },
   { "name": "err", "match": "^([^AEIOUY]+)" }
