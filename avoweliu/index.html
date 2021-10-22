@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="https://unpkg.com/custom-syntax-highlighter@latest/bin/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="sketch.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <button>btn test</button>
+    </header>
+    <div>
+      <textarea id="in"
+        placeholder="Enter Avoweliu Source Code"
+        spellcheck="false"
+        oninput="update(this.value); sync_scroll(this);"
+        onscroll="sync_scroll(this);"
+        onkeydown="check_tab(this, event);"
+      ></textarea>
+      <pre id="out" aria-hidden="true"><code></code></pre>
+    </div>
+  </body>
+</html>
