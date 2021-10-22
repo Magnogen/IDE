@@ -1,4 +1,4 @@
 [
-  { "name": "cmd", "match": "^([AEIOUY][-aeiouy0-9]*)" },
-  { "name": "err", "match": "^([^AEIOUY]+)" }
+  { "name": "vwly-cmd", "match": "^([AEIOUY][-aeiouy0-9]*)" },
+  { "name": "vwly-err", "match": "^([^AEIOUY]+)" }
 ]
