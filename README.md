@@ -3,7 +3,7 @@
 A collection of IDEs, interpreters and compiliers for languages, including some esoteric ones
 
 
-![Avoweliu Thumb](https://ide.magnogen.net/avoweliu/thumb.png)
+![Avoweliu Thumb](https://magnogen.net/IDE/avoweliu/thumb.png)
 
 ## Avoweliu
 
