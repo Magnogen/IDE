@@ -3,7 +3,7 @@ let lang = document.querySelector('script[highlight]').getAttribute('highlight')
 let rules;
 (async function() {
   let getJSON = async p => await fetch(p).then(r=>r.ok?r.json():undefined);
-  rules = await getJSON(`https://ide.magnogen.net/${lang}/rules.json`);
+  rules = await getJSON(`https://magnogen.net/IDE/${lang}/rules.json`);
 })();
 
 function update(text) {
